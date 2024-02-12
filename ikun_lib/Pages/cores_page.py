@@ -31,5 +31,6 @@ class Cores(QWidget, Ui_Cores):
 
             self.mc_card.setObjectName(f"mccard{i}")
             self.layout.addWidget(self.mc_card)
+            self.mc_card.TransparentToolButton.clicked.connect(lambda: self.stackedWidget_2.setCurrentIndex(1))
 
 

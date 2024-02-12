@@ -210,8 +210,8 @@
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>701</width>
-            <height>644</height>
+            <width>637</width>
+            <height>558</height>
            </rect>
           </property>
           <layout class="QGridLayout" name="gridLayout_8">
@@ -228,89 +228,6 @@
            </item>
            <item row="1" column="1" colspan="2">
             <widget class="LineEdit" name="LineEdit"/>
-           </item>
-           <item row="4" column="0" colspan="3">
-            <widget class="QWidget" name="widget" native="true">
-             <layout class="QVBoxLayout" name="verticalLayout">
-              <item>
-               <widget class="PushButton" name="PushButton_3">
-                <property name="text">
-                 <string>Push button</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="PrimaryPushButton" name="PrimaryPushButton">
-                <property name="text">
-                 <string>Primary push button</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="PillPushButton" name="PillPushButton_2">
-                <property name="text">
-                 <string>Pill push button</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="PillPushButton" name="PillPushButton">
-                <property name="text">
-                 <string>Pill push button</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="SplitToolButton" name="SplitToolButton"/>
-              </item>
-              <item>
-               <widget class="ToolButton" name="ToolButton"/>
-              </item>
-              <item>
-               <widget class="PrimarySplitPushButton" name="PrimarySplitPushButton">
-                <property name="text_" stdset="0">
-                 <string>Primary split push button</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="TransparentToolButton" name="TransparentToolButton"/>
-              </item>
-              <item>
-               <widget class="PrimaryToolButton" name="PrimaryToolButton"/>
-              </item>
-              <item>
-               <widget class="DropDownToolButton" name="DropDownToolButton"/>
-              </item>
-              <item>
-               <widget class="DropDownPushButton" name="DropDownPushButton">
-                <property name="text">
-                 <string>Drop down push button</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="PrimaryDropDownPushButton" name="PrimaryDropDownPushButton">
-                <property name="text">
-                 <string>Primary drop down push button</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <spacer name="horizontalSpacer_3">
-                <property name="orientation">
-                 <enum>Qt::Horizontal</enum>
-                </property>
-                <property name="sizeHint" stdset="0">
-                 <size>
-                  <width>40</width>
-                  <height>20</height>
-                 </size>
-                </property>
-               </spacer>
-              </item>
-             </layout>
-            </widget>
            </item>
            <item row="0" column="0" rowspan="4">
             <widget class="CardWidget" name="CardWidget">
@@ -423,7 +340,7 @@
              </property>
             </widget>
            </item>
-           <item row="5" column="0">
+           <item row="4" column="0">
             <spacer name="verticalSpacer">
              <property name="orientation">
               <enum>Qt::Vertical</enum>
@@ -458,68 +375,8 @@
    <header>qfluentwidgets</header>
   </customwidget>
   <customwidget>
-   <class>PrimaryPushButton</class>
-   <extends>PushButton</extends>
-   <header>qfluentwidgets</header>
-  </customwidget>
-  <customwidget>
-   <class>PillPushButton</class>
-   <extends>ToggleButton</extends>
-   <header>qfluentwidgets</header>
-  </customwidget>
-  <customwidget>
-   <class>DropDownPushButton</class>
-   <extends>PushButton</extends>
-   <header>qfluentwidgets</header>
-  </customwidget>
-  <customwidget>
-   <class>PrimaryDropDownPushButton</class>
-   <extends>PrimaryPushButton</extends>
-   <header>qfluentwidgets</header>
-  </customwidget>
-  <customwidget>
-   <class>SplitPushButton</class>
-   <extends>QWidget</extends>
-   <header>qfluentwidgets</header>
-  </customwidget>
-  <customwidget>
-   <class>PrimarySplitPushButton</class>
-   <extends>SplitPushButton</extends>
-   <header>qfluentwidgets</header>
-  </customwidget>
-  <customwidget>
-   <class>ToolButton</class>
-   <extends>QToolButton</extends>
-   <header>qfluentwidgets</header>
-  </customwidget>
-  <customwidget>
-   <class>PrimaryToolButton</class>
-   <extends>ToolButton</extends>
-   <header>qfluentwidgets</header>
-  </customwidget>
-  <customwidget>
-   <class>TransparentToolButton</class>
-   <extends>ToolButton</extends>
-   <header>qfluentwidgets</header>
-  </customwidget>
-  <customwidget>
-   <class>DropDownToolButton</class>
-   <extends>ToolButton</extends>
-   <header>qfluentwidgets</header>
-  </customwidget>
-  <customwidget>
-   <class>SplitToolButton</class>
-   <extends>QWidget</extends>
-   <header>qfluentwidgets</header>
-  </customwidget>
-  <customwidget>
    <class>SwitchButton</class>
    <extends>QWidget</extends>
-   <header>qfluentwidgets</header>
-  </customwidget>
-  <customwidget>
-   <class>ToggleButton</class>
-   <extends>PushButton</extends>
    <header>qfluentwidgets</header>
   </customwidget>
   <customwidget>
