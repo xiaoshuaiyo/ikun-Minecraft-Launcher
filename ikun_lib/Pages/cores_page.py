@@ -44,6 +44,7 @@ class Cores(QWidget, Ui_Cores):
 
     def addInterface(self, mc_version):
         self.BreadcrumbBar.addItem(mc_version, mc_version)
+        self.LineEdit.setText(mc_version)
         self.stackedWidget_2.setCurrentIndex(1)
 
 
