@@ -1,0 +1,30 @@
+<RCC>
+  <qresource prefix="solid">
+    <file>solid/Anvil.png</file>
+    <file>solid/Cobblestone.png</file>
+    <file>solid/Command_Block.png</file>
+    <file>solid/Crafting_Table.png</file>
+    <file>solid/Egg.png</file>
+    <file>solid/Fabric.png</file>
+    <file>solid/Furnace.png</file>
+    <file>solid/Gold_Block.png</file>
+    <file>solid/Grass.png</file>
+    <file>solid/Grass_Path.png</file>
+    <file>solid/Redstone_Block.png</file>
+    <file>solid/Redstone_Lamp_Close.png</file>
+    <file>solid/Redstone_Lamp_Open.png</file>
+    <file>solid/Stone.png</file>
+    <file>solid/Anvil.png</file>
+    <file>solid/Cobblestone.png</file>
+    <file>solid/Command_Block.png</file>
+    <file>solid/Crafting_Table.png</file>
+    <file>solid/Egg.png</file>
+    <file>solid/Fabric.png</file>
+    <file>solid/Furnace.png</file>
+    <file>solid/Grass_Path.png</file>
+    <file>solid/Redstone_Block.png</file>
+    <file>solid/Redstone_Lamp_Close.png</file>
+    <file>solid/Redstone_Lamp_Open.png</file>
+    <file>solid/Stone.png</file>
+  </qresource>
+</RCC>
