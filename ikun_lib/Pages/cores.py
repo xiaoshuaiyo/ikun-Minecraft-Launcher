@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+import qfluentwidgets
 # Form implementation generated from reading ui file 'cores.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.9
@@ -17,7 +17,7 @@ class Ui_Cores(object):
         Cores.resize(673, 619)
         self.gridLayout_3 = QtWidgets.QGridLayout(Cores)
         self.gridLayout_3.setObjectName("gridLayout_3")
-        self.stackedWidget_2 = QtWidgets.QStackedWidget(Cores)
+        self.stackedWidget_2 = qfluentwidgets.PopUpAniStackedWidget(Cores)
         self.stackedWidget_2.setObjectName("stackedWidget_2")
         self.page_3 = QtWidgets.QWidget()
         self.page_3.setObjectName("page_3")
